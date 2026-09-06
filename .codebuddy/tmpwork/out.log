@@ -1,0 +1,14 @@
+copied
+CMD: D:\Python312\python.exe e:\codebuddy\workflow\.codebuddy\skills\classroom-audio-evaluation\scripts\transcribe_long.py e:\codebuddy\workflow\.codebuddy\tmpwork\audio_src.m4a -o e:\codebuddy\workflow\.codebuddy\tmpwork\transcript_long.json --chunk 600 --model small --preprocess standard
+解码/预处理（standard）...
+总时长 123.6 min
+共 13 块，已完成 0 块
+[块 000/13]   0.0- 10.0min nseg=226 218s (2.7x) :: 你的應該成績出來了是吧 就是具體多少多少分呢 具體多少多少分
+[块 001/13]  10.0- 20.0min nseg=186 200s (3.0x) :: 等下我这个牙膏就起来 就好 到了
+[块 002/13]  20.0- 30.0min nseg=175 197s (3.1x) :: 好 那我們來做一下這道題 就是這個我們這節課主要就是用這個 拿外國的卷子來卷解課題
+[块 003/13]  30.0- 40.0min nseg=223 218s (2.7x) :: 剪刀 剪刀 剪刀
+[块 004/13]  40.0- 50.0min nseg=182 215s (2.8x) :: 有很多不同之處,比如說像他們的顏色,還有就是大小尺寸 這裡用什麼詞性呢?形容詞,這個詞性也是判斷對的,但是去選詞 如果你
+[块 005/13]  50.0- 60.0min nseg=178 238s (2.5x) :: 诶 哪有这样子的 你这个 暂停之后面又变形容
+[块 006/13]  60.0- 70.0min nseg=41 140s (4.3x) :: 1.5元 1.5元 1.5元
+[块 007/13]  70.0- 80.0min nseg=172 247s (2.4x) :: 對吧,但是這個我講過,A跟B應該認識,什麼實際? 好,來,好,來,我這兒講過,我這兒講過,其實它是屬於這個考點 只有表情
+rc: 4294967295

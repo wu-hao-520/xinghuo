@@ -1,0 +1,20 @@
+{
+  "next_id": 524,
+  "id_format": "Q- + 5位全局唯一（跨库不重复）",
+  "libraries": [
+    {
+      "grade": "初三",
+      "subject": "数学",
+      "count": 201,
+      "papers": 9,
+      "images_dirs": 4
+    },
+    {
+      "grade": "高三",
+      "subject": "物理",
+      "count": 322,
+      "papers": 21,
+      "images_dirs": 21
+    }
+  ]
+}

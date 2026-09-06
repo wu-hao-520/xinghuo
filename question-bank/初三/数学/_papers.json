@@ -1,0 +1,103 @@
+[
+  {
+    "name": "2026年广东省中考数学试题",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2026-06-30",
+    "exam_date": "2026-06-30",
+    "exam_type": "中考",
+    "question_count": 23,
+    "source_file": "2026年广东省中考数学试题.docx+pdf"
+  },
+  {
+    "name": "2025年广东中考数学试题",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2025-06-30",
+    "exam_date": "2025-06-30",
+    "exam_type": "中考",
+    "question_count": 23,
+    "source_file": "2025年广东中考数学试题（解析版）.docx+pdf"
+  },
+  {
+    "name": "2025年广东省深圳市中考数学试题",
+    "subject": "数学",
+    "grade": "初三",
+    "exam_type": "中考",
+    "exam_date": "2025-06-26",
+    "question_count": 20,
+    "source_file": "2025年广东省深圳市中考数学试题 （解析版）.pdf"
+  },
+  {
+    "name": "2025年广东省广州市中考数学真题",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2025-06-30",
+    "exam_date": "2025-06-30",
+    "exam_type": "中考",
+    "question_count": 25,
+    "source_file": "2025年广东省广州市中考数学真题（解析版）.docx"
+  },
+  {
+    "name": "广东省深圳市2026年中考数学卷",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2026-06-30",
+    "exam_date": "2026-06-30",
+    "exam_type": "中考",
+    "question_count": 20,
+    "source_file": "广东省深圳市2026年中考数学卷（解析版）.docx"
+  },
+  {
+    "name": "2024学年第一学期九年级第一次学科核心素养监测 数学试卷",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2024-10-01",
+    "exam_date": "2024-10-01",
+    "exam_type": "月考",
+    "question_count": 23,
+    "source_file": "2024学年（10月）九年级上学期第一次核心素养数学试卷.pdf",
+    "paper_id": "P2024_CORE1",
+    "schema_version": "exam-conversion-v1",
+    "answer_present": false
+  },
+  {
+    "name": "第二章 一元二次方程单元测试题",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2025-09-06",
+    "exam_date": "2025-09-06",
+    "exam_type": "单元测试",
+    "question_count": 23,
+    "source_file": "2025-2026年一外初三第二单元测试（无答案）.pdf",
+    "paper_id": "P2025_UNIT2",
+    "schema_version": "exam-conversion-v1",
+    "answer_present": false
+  },
+  {
+    "name": "第一章《特殊平行四边形》单元测试",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2025-09-06",
+    "exam_date": "2025-09-06",
+    "exam_type": "单元测试",
+    "question_count": 21,
+    "source_file": "2025-2026年一外初三第一单元测试（无答案）(2).pdf",
+    "paper_id": "P2025_UNIT1",
+    "schema_version": "standard-intermediate-question-package-v1.1",
+    "answer_present": false
+  },
+  {
+    "name": "2025学年第一学期九年级核心素养展示（一） 数学（9月月考试卷）",
+    "subject": "数学",
+    "grade": "初三",
+    "date": "2026-09-06",
+    "exam_date": "2026-09-06",
+    "exam_type": "月考",
+    "question_count": 23,
+    "source_file": "2025-2026年一外初三上9月月考试卷（无答案）(2).pdf",
+    "paper_id": "P2025_SEP",
+    "schema_version": "standard-intermediate-question-package-v1.1",
+    "answer_present": false
+  }
+]

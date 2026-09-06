@@ -1,0 +1,223 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^Traceback (most recent call last):
+^  File "<string>", line 1, in <module>
+^
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 131, in _main
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+        exitcode = _main(fd, parent_sentinel)
+prepare(preparation_data)
+             File "D:\Python312\Lib\multiprocessing\spawn.py", line 246, in prepare
+        ^_fixup_main_from_path(data['init_main_from_path'])^
+^^  File "D:\Python312\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+^Traceback (most recent call last):
+    ^^^^^^^^^^^^main_content = runpy.run_path(main_path,  File "<string>", line 1, in <module>
+^^^^^^^^^
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 131, in _main
+          prepare(preparation_data)exitcode = _main(fd, parent_sentinel)
+
+    File "D:\Python312\Lib\multiprocessing\spawn.py", line 246, in prepare
+                     ^^^^^^^ _fixup_main_from_path(data['init_main_from_path'])^^^^^^
+ ^^^^^^^^^^^^        
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+  File "<frozen runpy>", line 287, in run_path
+   File "<frozen runpy>", line 98, in _run_module_code
+      main_content = runpy.run_path(main_path,
+^^  ^^   File "<frozen runpy>", line 88, in _run_code
+^^^   File "E:\codebuddy\workflow\.codebuddy\tmpwork\_par.py", line 64, in <module>
+^^  ^^^^^^^^^^^^^^^^^Traceback (most recent call last):
+             ^^^^^  File "<string>", line 1, in <module>
+    
+^^for r in ex.map(work, todo):  File "D:\Python312\Lib\multiprocessing\spawn.py", line 131, in _main
+    ^
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+prepare(preparation_data)^     exitcode = _main(fd, parent_sentinel)
+            ^^^^^^^
+^^^^^^^^^  File "D:\Python312\Lib\multiprocessing\spawn.py", line 246, in prepare
+  ^^             _fixup_main_from_path(data['init_main_from_path'])^^    ^^^^^^^
+^^^^^^^^^^^^^^^^^
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+^^^^^^^^^    ^^^^^^main_content = runpy.run_path(main_path,  File "<frozen runpy>", line 287, in run_path
+
+Traceback (most recent call last):
+^
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 131, in _main
+  File "<string>", line 1, in <module>
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+      
+  File "<frozen runpy>", line 88, in _run_code
+        exitcode = _main(fd, parent_sentinel)prepare(preparation_data)  File "D:\Python312\Lib\concurrent\futures\process.py", line 859, in map
+  File "E:\codebuddy\workflow\.codebuddy\tmpwork\_par.py", line 64, in <module>
+ 
+
+        File "D:\Python312\Lib\multiprocessing\spawn.py", line 246, in prepare
+    for r in ex.map(work, todo):results = super().map(partial(_process_chunk, fn),     _fixup_main_from_path(data['init_main_from_path'])
+
+          
+          File "D:\Python312\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+                   ^             ^     ^^^^^^^^^^^^^^^^^^^^^^main_content = runpy.run_path(main_path,^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^             ^^^^^^^^ 
+^^^^^^^     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\process.py", line 859, in map
+^
+^^^  File "<frozen runpy>", line 287, in run_path
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 131, in _main
+    ^^^^^^^^^^^^^^^^^^^^^^  File "<frozen runpy>", line 98, in _run_module_code
+results = super().map(partial(_process_chunk, fn),    ^^  File "<frozen runpy>", line 88, in _run_code
+
+prepare(preparation_data)^^^^^
+  File "E:\codebuddy\workflow\.codebuddy\tmpwork\_par.py", line 64, in <module>
+ 
+^  File "<frozen runpy>", line 287, in run_path
+       File "D:\Python312\Lib\multiprocessing\spawn.py", line 246, in prepare
+^  File "<frozen runpy>", line 98, in _run_module_code
+      ^    _fixup_main_from_path(data['init_main_from_path'])
+ 
+  File "<frozen runpy>", line 88, in _run_code
+for r in ex.map(work, todo):  File "D:\Python312\Lib\multiprocessing\spawn.py", line 297, in _fixup_main_from_path
+    File "E:\codebuddy\workflow\.codebuddy\tmpwork\_par.py", line 64, in <module>
+
+  File "D:\Python312\Lib\concurrent\futures\_base.py", line 608, in map
+    main_content = runpy.run_path(main_path,
+               for r in ex.map(work, todo):          ^
+fs = [self.submit(fn, *args) for args in zip(*iterables)]          ^ 
+  ^^^^^^  ^^^      ^^^^  ^ ^^   ^^^^^^^^^^^   ^^       ^^^^^^^^^^^ ^^^^^^^^^^^^   ^^^^^^^^^
+^^^^  File "<frozen runpy>", line 287, in run_path
+^^^^
+^^^  File "<frozen runpy>", line 98, in _run_module_code
+  File "D:\Python312\Lib\concurrent\futures\process.py", line 859, in map
+^^^^^^^^^^^^^^      File "<frozen runpy>", line 88, in _run_code
+^^^^^^^^^^^results = super().map(partial(_process_chunk, fn),  File "E:\codebuddy\workflow\.codebuddy\tmpwork\_par.py", line 64, in <module>
+^^^^
+    for r in ex.map(work, todo):
+^  File "D:\Python312\Lib\concurrent\futures\process.py", line 830, in submit
+^
+    ^    ^  ^self._adjust_process_count()^  ^
+^  ^^^^^^^    File "D:\Python312\Lib\concurrent\futures\process.py", line 789, in _adjust_process_count
+^
+  ^^^^   File "D:\Python312\Lib\concurrent\futures\process.py", line 859, in map
+     
+         File "D:\Python312\Lib\concurrent\futures\_base.py", line 608, in map
+    ^self._spawn_process() results = super().map(partial(_process_chunk, fn),    fs = [self.submit(fn, *args) for args in zip(*iterables)]
+  ^
+          ^^  File "D:\Python312\Lib\concurrent\futures\process.py", line 807, in _spawn_process
+
+ ^^^^^^ ^    ^^ ^p.start()^^^^
+^ ^^  File "D:\Python312\Lib\multiprocessing\process.py", line 121, in start
+^ ^^^    ^^^^^^^^^^^^^^^^^^^     ^^^^ ^^self._popen = self._Popen(self)^ ^^
+^^^^  ^^^  ^^^  
+^^    File "D:\Python312\Lib\concurrent\futures\process.py", line 859, in map
+^^^^    ^ ^^^^^^results = super().map(partial(_process_chunk, fn),^ 
+^^^^^
+^           ^^^^^^^^^^^^^^^^^^  File "D:\Python312\Lib\concurrent\futures\_base.py", line 608, in map
+
+  File "D:\Python312\Lib\concurrent\futures\process.py", line 830, in submit
+
+  File "D:\Python312\Lib\multiprocessing\context.py", line 337, in _Popen
+       self._adjust_process_count()^              
+^     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  File "D:\Python312\Lib\concurrent\futures\process.py", line 789, in _adjust_process_count
+^return Popen(process_obj)fs = [self.submit(fn, *args) for args in zip(*iterables)]^^
+    
+^^^^^^^^^^ self._spawn_process() ^^^^^^^^^
+ 
+ ^  File "D:\Python312\Lib\concurrent\futures\_base.py", line 608, in map
+   ^^^^^^^^^^^^^  File "D:\Python312\Lib\concurrent\futures\process.py", line 807, in _spawn_process
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+p.start()fs = [self.submit(fn, *args) for args in zip(*iterables)]  File "D:\Python312\Lib\multiprocessing\popen_spawn_win32.py", line 46, in __init__
+  File "D:\Python312\Lib\concurrent\futures\process.py", line 830, in submit
+  File "D:\Python312\Lib\concurrent\futures\_base.py", line 608, in map
+
+
+      File "D:\Python312\Lib\multiprocessing\process.py", line 121, in start
+                  prep_data = spawn.get_preparation_data(process_obj._name)    fs = [self.submit(fn, *args) for args in zip(*iterables)]self._adjust_process_count()^
+self._popen = self._Popen(self)
+
+^^^^^^^^^^^^^^^^  File "D:\Python312\Lib\concurrent\futures\process.py", line 789, in _adjust_process_count
+ 
+ ^^^^^               
+              File "D:\Python312\Lib\concurrent\futures\process.py", line 830, in submit
+    self._spawn_process()^^^^
+              ^  File "D:\Python312\Lib\concurrent\futures\process.py", line 807, in _spawn_process
+ ^^^self._adjust_process_count()   ^^^^^^^^^^^^^^^     
+^^^^  File "D:\Python312\Lib\concurrent\futures\process.py", line 789, in _adjust_process_count
+^^^^p.start()^^^^
+^    ^^  File "D:\Python312\Lib\multiprocessing\process.py", line 121, in start
+^self._spawn_process()^^    self._popen = self._Popen(self)
+^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\process.py", line 807, in _spawn_process
+^^^^^^^^^^^^^^^    ^^^^^^^
+p.start()^ ^  File "D:\Python312\Lib\concurrent\futures\process.py", line 830, in submit
+
+^ ^  File "D:\Python312\Lib\multiprocessing\process.py", line 121, in start
+
+     self._adjust_process_count()    self._popen = self._Popen(self)
+^^^^^^^^^^
+         File "D:\Python312\Lib\multiprocessing\context.py", line 337, in _Popen
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 164, in get_preparation_data
+ 
+        ^^       File "D:\Python312\Lib\concurrent\futures\process.py", line 789, in _adjust_process_count
+    ^ _check_not_importing_main()return Popen(process_obj)^^^^
+                   ^self._spawn_process()
+^ ^^^^^^^^ 
+  File "D:\Python312\Lib\multiprocessing\spawn.py", line 140, in _check_not_importing_main
+^^^^^^^^^             ^^^^^^^^^^^raise RuntimeError('''  File "D:\Python312\Lib\concurrent\futures\process.py", line 807, in _spawn_process
+^
+^
+^  File "D:\Python312\Lib\multiprocessing\context.py", line 337, in _Popen
+^    RuntimeError^^^^^^    p.start(): ^
+return Popen(process_obj)
+
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+        To fix this issue, refer to the "Safe importing of main module"
+        section in https://docs.python.org/3/library/multiprocessing.html
+        ^  File "D:\Python312\Lib\multiprocessing\popen_spawn_win32.py", line 46, in __init__
+
+  File "D:\Python312\Lib\multiprocessing\process.py", line 121, in start
+
+^         ^^  prep_data = spawn.get_preparation_data(process_obj._name)
+self._popen = self._Popen(self) 
+  File "D:\Python312\Lib\multiprocessing\context.py", line 337, in _Popen
+
+                       ^^^^^^^ return Popen(process_obj)   
+^^^^^^^^^^^^^^^^^^^^^^^^^^   ^^^     ^^  ^^^^^^^^^   ^^  ^^^ ^ ^^^  ^^^^^  ^^      ^^
+
+ ^  File "D:\Python312\Lib\multiprocessing\popen_spawn_win32.py", line 46, in __init__
+Traceback (most recent call last):
+  File "E:\codebuddy\workflow\.codebuddy\tmpwork\_par.py", line 64, in <module>
+    for r in ex.map(work, todo):
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\process.py", line 642, in _chain_from_iterable_of_lists
+    for element in iterable:
+                   ^^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+concurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.

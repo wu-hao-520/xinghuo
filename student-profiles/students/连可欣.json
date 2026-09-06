@@ -1,0 +1,106 @@
+{
+  "name": "连可欣",
+  "grade": "高三",
+  "subjects": [
+    "物理"
+  ],
+  "profile": {
+    "整体水平": "",
+    "薄弱学科": [],
+    "备注": ""
+  },
+  "errors": [
+    {
+      "subject": "物理",
+      "date": "2026-09-05",
+      "exam": "顺德一中第四届物理运算（平行班）",
+      "question_no": "第6题",
+      "question_text": "带正电粒子仅受静电力从静止沿直线运动，给出 0~4t0 内 v-t 图三段折线，t0 在 a 点、1.5t0 在 b 点、3.5t0 在 c 点，判断电势/场强/电势能关系",
+      "correct_answer": "C",
+      "student_answer": "待确认",
+      "error_type": "待确认",
+      "knowledge_point": "电场中的功能关系（v-t图像判电势/场强/电势能）",
+      "exam_point": "v-t斜率=加速度=qE/m、动能↔电势能↔电势",
+      "difficulty": "较难",
+      "question_type": "单选题",
+      "review_status": "未复习",
+      "review_count": 0,
+      "review_history": [],
+      "tags": [
+        "电场",
+        "v-t图像",
+        "电势能"
+      ],
+      "id": "P-20260905-001"
+    },
+    {
+      "subject": "物理",
+      "date": "2026-09-05",
+      "exam": "顺德一中第四届物理运算（平行班）",
+      "question_no": "第7题",
+      "question_text": "氢原子 n=3 向低能级跃迁产生多种频率光照射同种材料，光电流 I-U 关系有 a、b、c 三条曲线，判断线状谱/电子动能/波长关系/遏止电压",
+      "correct_answer": "AB",
+      "student_answer": "待确认",
+      "error_type": "待确认",
+      "knowledge_point": "氢原子能级与光电效应（玻尔模型、遏止电压）",
+      "exam_point": "能级量子化、Ek=ke²/2r、遏止电压 Uc 与频率关系",
+      "difficulty": "较难",
+      "question_type": "多选题",
+      "review_status": "未复习",
+      "review_count": 0,
+      "review_history": [],
+      "tags": [
+        "氢原子能级",
+        "光电效应",
+        "遏止电压"
+      ],
+      "id": "P-20260905-002"
+    },
+    {
+      "subject": "物理",
+      "date": "2026-09-05",
+      "exam": "顺德一中第四届物理运算（平行班）",
+      "question_no": "第8题",
+      "question_text": "边长 L 单匝正方形线框以速度 v0 进入 B 匀强磁场，判断加速度/电量/匀速速度/焦耳热",
+      "correct_answer": "AD",
+      "student_answer": "待确认",
+      "error_type": "待确认",
+      "knowledge_point": "电磁感应综合（线框进入磁场）",
+      "exam_point": "安培力 F=B²L²v/R、q=ΔΦ/R、能量守恒",
+      "difficulty": "难题",
+      "question_type": "多选题",
+      "review_status": "未复习",
+      "review_count": 0,
+      "review_history": [],
+      "tags": [
+        "电磁感应",
+        "安培力",
+        "能量守恒"
+      ],
+      "id": "P-20260905-003"
+    },
+    {
+      "subject": "物理",
+      "date": "2026-09-05",
+      "exam": "顺德一中第四届物理运算（平行班）",
+      "question_no": "第10题",
+      "question_text": "柱状透明介质横截面矩形 MNQP（长 2R、宽 √3R），PQ 为半圆，光垂直 MN 射入有 1/2 从弧形边界射出，求折射率及全反射光线返回时间",
+      "correct_answer": "n=2；t=8R/c",
+      "student_answer": "待确认",
+      "error_type": "待确认",
+      "knowledge_point": "几何光学（折射率计算、全反射、光路时间）",
+      "exam_point": "折射定律 n=sinθ1/sinθ2、全反射 sinC=1/n、v=c/n",
+      "difficulty": "难题",
+      "question_type": "解答题",
+      "review_status": "未复习",
+      "review_count": 0,
+      "review_history": [],
+      "tags": [
+        "几何光学",
+        "全反射",
+        "折射率"
+      ],
+      "id": "P-20260905-004"
+    }
+  ]
+}

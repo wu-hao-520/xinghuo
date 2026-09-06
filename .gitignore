@@ -1,0 +1,12 @@
+# 临时文件（试卷分析等 skill 运行时产生）
+_tmp/
+*_work/
+_pages/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+Thumbs.db
+.DS_Store
